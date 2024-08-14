@@ -37,4 +37,10 @@ Here you can see the table name Sales_fact with its column name. This is called 
 _What is the customer_id for the highest sales?_: 712345388
 
 # Task 2 Product sales from 18th till 15th December
+Compute sales amount by each product with product description for the period 8th to 15th December.
+
+
+_1. What is the product description of the product with the highest sales?_ : Cornflakes_1Kg
+
+_2. What is the sales amount of the product with the highest sales?_ : 5372
 
