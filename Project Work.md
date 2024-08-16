@@ -86,6 +86,8 @@ If a mobile phone service provider generates $100,000 in revenue from 10,000 sub
 
 Create a new column in the **Sales_fact** table and name it **State**. Fill this column with state name given in **Geography_dim** table. Use VLOOKUP and and **Store_id** as the lookup value.
 
+Also, create another column **City** and fill this column using the above approach.
+
 Also, create a new sheet by the name **State_analystics** and copy State names from **Geography_dim** table. Do not remove duplicates.
 
 Create a new column **Sales_by_State** and calculate Sales for each state by using **SUMIFS** and **Sales_fact** table.
@@ -116,4 +118,19 @@ What is the average revenue per customer for Maharashtra? : 2024.14
 
 # Task 4 Sales by category with city level breakup
 
-Create a new column **Category_disc** in the **Sales_fact** table. Using VLOOKUP and the data in the **Category_dim** table
+Create a new column **Category_disc** in the **Sales_fact** table. Using VLOOKUP and the data in the **Category_dim** table fill this new column.
+
+Now copy the **City** column and **Category_disc** column to a new sheet **Task4**. Remove the duplicates.
+
+Add a new column **Sales**. Using the SUMIFS function and **Sales_fact** table find the sales for each combination of City and Category.
+
+_=SUMIFS(Sales_fact[Sales],Sales_fact[City],A2,Sales_fact[Category_desc],B2)_
+
+Copy down the formula.
+
+## ❓Question 1
+What is the Sales amount of 'Cereals' in Pune? : 4083
+
+
+End of Project
+--
