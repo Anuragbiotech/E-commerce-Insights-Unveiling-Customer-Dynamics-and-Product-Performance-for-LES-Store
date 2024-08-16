@@ -21,3 +21,4 @@ Data provided by [Coding Invaders](https://www.linkedin.com/company/codinginvade
 3) ARPU by city and by state
 4) Sales by category with city-level breakup
 
+[GoogleSheet-Project](https://docs.google.com/spreadsheets/d/1L0PD9ssUyxg-stVeM_-E5pPjUcGVmpio/edit?usp=sharing&ouid=110937585537187810050&rtpof=true&sd=true)
