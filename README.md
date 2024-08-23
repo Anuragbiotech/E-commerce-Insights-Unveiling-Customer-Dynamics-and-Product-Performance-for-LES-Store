@@ -1,4 +1,4 @@
-# Google-Sheets-Project---KPIs-of-LES-Store
+# E-commerce Insights: Unveiling Customer Dynamics and Product Performance for LES Store
 
 The project helps understand business dynamics like high-value customers, basket size of customers, fast-moving products, and location performance of e-commerce platform LES Store.
 
